@@ -42,6 +42,7 @@ function calcular() {
     display.value = eval(display.value);
     result = true;
 
+    //tratamento de divisão por 0
     if (display.value == "Infinity") {
       display.style.color = "red";
       display.value = "Error "

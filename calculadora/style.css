@@ -135,6 +135,10 @@ button:active {
     background-color: var(--corBackgroundLight);
 }
 
+textarea {
+    resize: none;
+}
+
 #display {
     height: 110px;
     border-radius: 10px;

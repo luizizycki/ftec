@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculadora FTEC</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="img/favicon.png">
+    </head>
+
+    <header>
+        <h1>Calculadora</h1>
+        <div class="texto">Feito por: Luiz Izycki</div>
+        <div class="links">
+            <a href="https://github.com/luizizycki">Github</>
+            <a href="https://www.linkedin.com/in/luiz-gustavo-b55236204/">Linkedin</a>
+        </div>
+
+    </header>
+
+    <body>
+        <div class="container">
+            <textarea id="historico" readonly rows="5" cols="50"></textarea>
+            <input type="text" id="display" class="corErro" readonly />
+            <div class="grid-botoes">
+                <button onclick="limparDisplay()">AC</button>
+                <button onclick="apagar()">DEL</button>
+                <button onclick="adicionarAoDisplay('%')">%</button>
+                <button onclick="adicionarAoDisplay('/')">/</button>
+
+                <button onclick="adicionarAoDisplay('7')" class="numeros">7</button>
+                <button onclick="adicionarAoDisplay('8')" class="numeros">8</button>
+                <button onclick="adicionarAoDisplay('9')" class="numeros">9</button>
+                <button onclick="adicionarAoDisplay('*')">*</button>
+
+                <button onclick="adicionarAoDisplay('4')" class="numeros">4</button>
+                <button onclick="adicionarAoDisplay('5')" class="numeros" >5</button>
+                <button onclick="adicionarAoDisplay('6')" class="numeros">6</button>
+                <button onclick="adicionarAoDisplay('-')">-</button>
+
+                <button onclick="adicionarAoDisplay('1')" class="numeros">1</button>
+                <button onclick="adicionarAoDisplay('2')" class="numeros">2</button>
+                <button onclick="adicionarAoDisplay('3')" class="numeros">3</button>
+                <button onclick="adicionarAoDisplay('+')">+</button>
+
+                <button onclick="adicionarAoDisplay('0')" class="numeros">0</button>
+                <button onclick="adicionarAoDisplay('00')" class="numeros">00</button>
+                <button onclick="adicionarAoDisplay('.')">.</button>
+                <button onclick="calcular()" id="igual">=</button>
+
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

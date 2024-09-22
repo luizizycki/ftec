@@ -1,0 +1,26 @@
+Solução:
+  Considerando a escala do projeto, um aplicativo feito do zero é uma opção viável:
+  Para a simplificação do registro de pedidos, uma aplicação feita com Node.js como backend e gerenciamento do banco de dados, React para o front-end, conectado a um banco de dados relacional como PostgreSQL. Além disso, para o fornecimento de relatórios detalhados sobre as vendas, a implementação de alguma solução de BI como power BI é o ideal, e um serviço de hosting como AWS.
+
+Orçamento tempo:
+  O tempo para fazer o projeto é muito dependente e é apenas uma estimativa.
+  Planejamento e consulta com o cliente: 1 - 2 semanas;
+  Backend: 4 - 6 semanas;
+  Front-end: 2 - 4 semanas;
+  BI: 2 semanas;
+  Entrega do aplicativo e adaptação: 1 - 2 semanas;
+
+Valor:
+  Considerando a média de um junior back-end, R$ 4.000 e uma estimativa de 50 horas de trabalho no projeto, 50 * R$ 18,18 = R$ 909,00;
+
+  Front-end: média de R$ 3.250/mês, com 45 horas de trabalho, 45 * R$ 15 = R$ 675,00;
+
+  Analista de dados: R$ 4.000, com 40 horas de trabalho, 40 * R$ 18,18 = R$ 727,20;
+
+  Servidor AWS e banco de dados: Estimativa de R$ 50,00/mês;
+
+  Suporte: média de R$ 17,05/hora, considerando 3 semanas, 45h * R$ 17,05 = R$ 767.25
+
+  Total: R$ 3.078,45 + R$ 50/mês.
+
+  (os valores são estimativas pessoais e médias do site glassdoor)

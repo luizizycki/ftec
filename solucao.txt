@@ -1,6 +1,6 @@
 Solução:
   Considerando a escala do projeto, um aplicativo feito do zero é uma opção viável:
-  Para a simplificação do registro de pedidos, uma aplicação feita com Node.js como backend e gerenciamento do banco de dados, React para o front-end, conectado a um banco de dados relacional como PostgreSQL. Além disso, para o fornecimento de relatórios detalhados sobre as vendas, a implementação de alguma solução de BI como power BI é o ideal, e um serviço de hosting como AWS.
+  Para a simplificação do registro de pedidos, uma aplicação feita com Node.js como backend e gerenciamento do banco de dados, React para o front-end, conectado a um banco de dados relacional como PostgreSQL. Além disso, para o fornecimento de relatórios detalhados sobre as vendas, a implementação de alguma solução de BI como power BI é o ideal, além de uma solução de container, como o docker, e um local para a hospedagem, como AWS.
 
 Orçamento tempo:
   O tempo para fazer o projeto é muito dependente e é apenas uma estimativa.
